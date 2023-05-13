@@ -8,7 +8,7 @@ variable "location" {
   type        = string
 }
 
-#other variable types
+#other variable  types
 variable "a_number" {
   description = "A variable of type number"
   default     = 2
