@@ -6,8 +6,7 @@ provider "azurerm" {
 }
 
 /*
-Create a new resource group and talk about it
-in a multi-line comment
+Create a new resource group
 */
 resource "azurerm_resource_group" "rg" {
   name     = "tf-basics-rg"
